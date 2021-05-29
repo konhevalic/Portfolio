@@ -1,0 +1,42 @@
+.projects {
+    background-color: #f2f2f2;
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 350px;
+    max-height: 2000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    align-items: center;
+}
+
+#project button {
+    background-color: #5b83a6;
+}
+
+#project h1, #project h2, #project p {
+    color: #012940;
+    text-align: left;
+    height: 48px;
+    margin-top: 6px;
+}
+
+.projects > h2 {
+    color: #012940;
+    justify-content: center;
+    text-align: center;
+    margin: 16px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+

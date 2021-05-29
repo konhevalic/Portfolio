@@ -1,0 +1,32 @@
+#education {
+    background-color: #5b83a6;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+}
+
+#education h1 {
+    text-align: center;
+    margin: 24px auto;
+    width: 100%;
+}
+
+
+#instituicoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 20px;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+#instituicoes h2 {
+    text-align: center;
+}
+
+#instituições p {
+    margin: 0 auto;
+}

@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #2a2d42;
+  width: 100%;
+  justify-content: center;
+}
+
+.wrap {
+  background-image: url('../../assets/Foto_Perfil.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+}
+
+.Left {
+  background-color: rgba(78, 164, 217, 0.38);
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.Right {
+  background-color: rgba(0, 67, 108, 0.64);
+  height: calc(100vh-60px);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+} 
+
+.Right aside {
+  margin-right: 20%;
+}
+
+
+.Right  ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  width: 368px;
+  height: 122px;
+  margin: 64px 0 26px 1px;
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  color: #ffffff;
+}
+
+.Left h1 {
+  max-width: 317px;
+}
