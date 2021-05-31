@@ -1,5 +1,5 @@
 import './styles.css'
-import {Title, SubTitle, Description, Social} from '../../components/index'
+import {Title, Description, Social} from '../../components/index'
 
 export const HireMe = () => {
   const state = {
