@@ -30,7 +30,7 @@
 
 .Right {
   background-color: rgba(0, 67, 108, 0.64);
-  height: calc(100vh-60px);
+  height: 100vh;
   width: 50%;
   display: flex;
   flex-direction: column;
