@@ -5,7 +5,7 @@ export const Knowledge = () => {
     const state = {
       title: "Conhecimentos",
       subTitle: ["Front-end", "Back-end"],
-      description: ["Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript com React.", "Aplicações utilizando NodeJS, Typescript e MySQL. Criação de API´s para comunicação com front-end seguindo princípio de Clean Code."]
+      description: ["Desenvolvimento de aplicações web utilizando HTML, CSS, JavaScript com React e Integração com API's", "Estudos em construção!"]
     }
 
     return (

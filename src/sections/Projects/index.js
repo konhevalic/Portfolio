@@ -37,8 +37,6 @@ export const Projects = () => {
     ]
   }
 
-
-
   return (
     <div className="projects">
       <SubTitle subTitle={state.title} />
@@ -48,9 +46,9 @@ export const Projects = () => {
             return (
               <div id="project">
                 <aside id="icon">
-                  <img src={project.image} alt="" />
+                  <img id="image" src={project.image} alt="" />
                 </aside>
-                <aside>
+                <aside id="description-projects">
                   <Title key={project.title} title={project.title} />
                   <SubTitle key={project.subTitle} subTitle={project.subTitle} />
                   <Description key={project.description} description={project.description} />

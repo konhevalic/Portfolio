@@ -17,6 +17,11 @@
   display: flex;
 }
 
+.description p {
+  width: 338px;
+  margin: 36px 31px 12px 0;
+}
+
 .Left {
   background-color: rgba(78, 164, 217, 0.38);
   height: 100vh;
@@ -60,4 +65,32 @@
 
 .Left h1 {
   max-width: 317px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .Right {
+    display: none;
+  }
+
+  .Left {
+    width: 100%;
+  }
+
+  .description button {
+      position: absolute;
+      bottom: 12px;
+  }
+
+  .Left h1 {
+    height: 100px;
+    margin-left: 0px;
+    margin-right: 0;
+    min-width: 95%;
+  }
+
+  .Left h2, .Left p {
+    width: 95%;
+    margin: 24px 12px 12px 12px
+  }
 }

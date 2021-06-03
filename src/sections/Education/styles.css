@@ -1,32 +1,69 @@
 #education {
     background-color: #5b83a6;
     width: 100%;
-    height: 350px;
+    height: auto;
     text-align: center;
     justify-content: center;
 }
 
-#education h1 {
+
+#education h2 {
     text-align: center;
     margin: 24px auto;
-    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 
-#instituicoes {
+#education-description {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.instituicoes {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
     justify-content: center;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    align-items: center;
 }
 
-#instituicoes h2 {
-    text-align: center;
+.instituicoes h1 {
+    font-size: 2.5rem;
 }
 
-#instituições p {
-    margin: 0 auto;
+
+@media screen and (max-width: 500px) {
+    #education h2 {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    #instituicoes {
+        margin: 24px auto;
+    }
+    
+    #instituicoes h1 {
+        margin: 0 auto;
+    }
+
+    #instituicoes p {
+        margin-top: 6px;
+    }
+
+    
+    #education-description {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #education-description h1, #education-description p {
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    
 }

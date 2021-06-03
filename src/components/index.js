@@ -34,22 +34,22 @@ export const Social = () => {
     return (
         <aside className="social">
           <ul>
-          <li>
-            <img src={linkedin} alt="LinkedIn" className="Group-10-Copy"/>
-          </li>
-          <li>
-            <img src={instagram} alt="LinkedIn" className="Group-10-Copy"/>
-          </li>
-          <li>
-            <img src={github} alt="LinkedIn" className="Group-10-Copy"/>
-          </li>
-          <li>
-            <img src={twitter} alt="LinkedIn" className="Group-10-Copy"/>
-          </li>
-          <li>
-            <img src={whatsapp} alt="LinkedIn" className="Group-10-Copy"/>
-          </li>
-        </ul>
+            <li>
+              <img src={linkedin} alt="LinkedIn"/>
+            </li>
+            <li>
+              <img src={instagram} alt="LinkedIn"/>
+            </li>
+            <li>
+              <img src={github} alt="LinkedIn"/>
+            </li>
+            <li>
+              <img src={twitter} alt="LinkedIn"/>
+            </li>
+            <li>
+              <img src={whatsapp} alt="LinkedIn"/>
+            </li>
+          </ul>
         </aside>
     )
 }

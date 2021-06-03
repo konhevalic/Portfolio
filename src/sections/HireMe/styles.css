@@ -19,7 +19,41 @@
     margin-bottom: 18px;
 }
 
+#informations {
+  justify-content: left;
+  text-align: left;
+}
 
 #informations p {
-    margin: 6px auto;
+  display: inline;
+  margin-right: 8px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .hire-me h1 {
+      font-size: 2rem;
+      height: auto;
+      text-align: center;
+      width: 100%;   
+      margin: 0;
+    }
+
+    .hire-me p {
+      width: 90%;
+      text-align: left;
+      margin: 18px auto;
+    }
+
+    #informations {
+      width: 90%;
+      text-align: left;
+      height: auto;
+    }
+
+    #informations p {
+      display: inline;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+  }
