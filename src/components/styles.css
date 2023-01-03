@@ -1,27 +1,27 @@
 h1 {
-    margin: 0 52px 6px 0;
-    font-size: 3rem;
-    color: #ffffff;
+  width: 52%;
+  height: 29px;
+  margin: 6px 13px 12px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+  text-align: left;
+  display: block;
 }
 
 h2 {
-  width: 356px;
+  width: 52%;
   height: 29px;
   margin: 6px 13px 12px 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: -0.32px;
   color: #ffffff;
   text-align: left;
+  display: block;
 }
 
-p {
-  width: 338px;
-  margin: 36px 31px 12px 0;
-  font-size: 1rem;
-  letter-spacing: -0.22px;
-  color: #ffffff;
-}
 
 button {
   height: 30px;
@@ -36,6 +36,22 @@ button {
 
 .social {
   margin-top: 12px;
+}
+
+/* .wrapAvatar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}  */
+
+.avatar {
+  width: 250px; /* width of container */
+  height: 250px; /* height of container */
+  object-fit: cover;
+  border-radius: 50%;
+  transform: rotate(-13deg);
 }
 
 @media screen and (max-width: 500px) {

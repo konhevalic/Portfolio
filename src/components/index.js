@@ -3,6 +3,7 @@ import instagram from '../assets/icons/fill-1-copy-2.svg'
 import github from '../assets/icons/fill-1-copy.svg'
 import twitter from '../assets/icons/group-3-copy.svg'
 import whatsapp from '../assets/icons/group-8-copy.svg'
+import avatar from '../assets/avatar.jpeg'
 
 import './styles.css'
 
@@ -52,4 +53,13 @@ export const Social = () => {
           </ul>
         </aside>
     )
+}
+
+export const Avatar = () => {
+  return (
+    <div className='wrapAvatar'>
+      <img className='avatar' src={avatar} />
+    </div>
+    
+  )
 }
