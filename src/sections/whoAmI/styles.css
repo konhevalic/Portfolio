@@ -3,10 +3,10 @@
   align-items: center;
   background-color: #2a2d42;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 24px;
+  height: 100vh;
 }
-
-
 
 .description {
   display: flex;
@@ -22,7 +22,7 @@
 
 .description p {
   width: 50%;
-  margin: 36px 31px 12px 0;
+  margin: 12px auto;
   font-size: 1rem;
   letter-spacing: -0.22px;
   color: #ffffff;
@@ -77,29 +77,9 @@
 }
 
 
-@media screen and (max-width: 500px) {
-  .Right {
-    display: none;
-  }
-
-  .Left {
-    width: 100%;
-  }
-
-  .description button {
-      position: absolute;
-      bottom: 12px;
-  }
-
-  .Left h1 {
-    height: 100px;
-    margin-left: 0px;
-    margin-right: 0;
-    min-width: 95%;
-  }
-
-  .Left h2, .Left p {
-    width: 95%;
-    margin: 24px 12px 12px 12px
+@media screen and (max-width: 768px) {
+  .description p {
+    width: 80%;
+    margin: 12px auto;
   }
 }

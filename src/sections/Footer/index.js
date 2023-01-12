@@ -3,12 +3,12 @@ import {Description} from '../../components/index'
 
 export const Footer = () => {
     const state = {
-        description: "© 2021 Alan Konhevalic"
+        description: "2023 - Alan Konhevalic"
     }
     return (
-        <div className="footer">
+        <footer className="footer">
             <Description description={state.description} />
-        </div>
+        </footer>
     )
 }
 

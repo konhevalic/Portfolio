@@ -1,6 +1,4 @@
 h1 {
-  width: 52%;
-  height: 29px;
   margin: 6px 13px 12px 0;
   font-size: 2rem;
   font-weight: bold;
@@ -11,9 +9,7 @@ h1 {
 }
 
 h2 {
-  width: 52%;
-  height: 29px;
-  margin: 6px 13px 12px 0;
+  margin: 6px 12px;
   font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: -0.32px;
@@ -38,13 +34,6 @@ button {
   margin-top: 12px;
 }
 
-/* .wrapAvatar {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-}  */
 
 .avatar {
   width: 250px; /* width of container */

@@ -4,6 +4,9 @@
     width: 100%;
     align-items: center;
     text-align: center;
+    bottom: 60px;
+    display: block;
+
 }
 
 .footer p {
@@ -11,4 +14,6 @@
     align-items: center;
     margin: 0 24px;
     height: 100%;
+    color: white;
+    justify-content: center;
 }

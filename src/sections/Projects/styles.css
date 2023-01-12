@@ -1,24 +1,40 @@
 .projects {
     background-color: #f2f2f2;
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 100%;
-    min-height: 350px;
-    max-height: 2000px;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 #image {
-    max-width: 480px;
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    border-radius: 14px;
 }
+
 
 #project {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     margin: 24px auto;
+    background-color: white;
+    border-radius: 21px;
+    padding: 24px;
+    transform: translateY(0);
+    transition: 0.2s;
+    max-width: 50%;
+}
+
+#project:hover { 
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    transform: translateY(-8px);
 }
 
 #project button {
@@ -28,45 +44,46 @@
 #project h1, #project h2, #project p {
     color: #012940;
     text-align: left;
-    height: 48px;
-    margin-top: 6px;
+    margin: 12px;
 }
 
 .projects > h2 {
     color: #012940;
     justify-content: center;
     text-align: center;
-    margin: 16px;
+    margin: 12px auto;
     font-weight: bold;
     font-size: 25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 889px) {
+    #image {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
     #project {
         display: grid;
-        grid-template-columns: 0.4fr 1fr;
-        align-items: center;
-        margin: 24px auto;
+        grid-template-columns: 1fr 2fr;
+        max-width: 75%;
     }
-    
-    #description-projects {
-        max-width: 50%;
-    }
-
-    #project #image {
-        width: 80%;
-    }
-
-    #description-projects {
-        max-width: 100%;
-    }
-
-    #description-projects button {
-        margin: 2px;
-    }
-
-    
 }
+
+@media screen and (max-width: 480px) {
+    #image {
+        display: none;
+    }
+
+    #project {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #description-projects p {
+        width: 100%;
+    }
+}
+
 
 
 

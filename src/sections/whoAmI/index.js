@@ -4,9 +4,8 @@ import {Title, SubTitle, Description, Social, Buttons, Avatar} from '../../compo
 export const WhoAmI = () => {
   const state = {
     myName: "Alan Konhevalic, 25",
-    subTitle: "Desenvolvedor iOS",
-    description: "Formado em Engenharia Elétrica pela UTFPR e cursando Analise e Desenvolvimento de Sistemas pela UFPR, tenho 1 ano de experiencia comprovada em desenvolvimento ReactJS. Atualmente trabalhando na Compass.uol como desenvolvedor Front-end. Tambem desenvolvo apps para iPhone e iPad, utilizando iOS Nativo (Swift).",
-    technologies: "ReactJS | Swift",
+    subTitle: "Desenvolvedor ReactJS | Swift",
+    description: "Cursando Analise e Desenvolvimento de Sistemas pela UFPR, tenho mais de 1 ano de experiencia em desenvolvimento ReactJS. Atualmente trabalhando na Compass.uol como desenvolvedor Front-end. Também tenho interesse em desenvolvimento nativo para iOS, em que tenho desenvolvido alguns aplicativos.",
     button: "CV em PDF"
   }
 
@@ -18,8 +17,7 @@ export const WhoAmI = () => {
               <Title title={state.myName} />
               <SubTitle subTitle={state.subTitle} />
               <Description description={state.description} />
-              <Description description={state.technologies} />
-              <Buttons buttonAction={state.button}/>
+              <Buttons cv={state.button}/>
               <Social id="social" />
           </div>
         </section>
