@@ -40,7 +40,6 @@ button {
   height: 250px; /* height of container */
   object-fit: cover;
   border-radius: 50%;
-  transform: rotate(-13deg);
 }
 
 @media screen and (max-width: 500px) {

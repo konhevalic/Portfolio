@@ -3,7 +3,7 @@ import {Description} from '../../components/index'
 
 export const Footer = () => {
     const state = {
-        description: "2023 - Alan Konhevalic"
+        description: "2024 - Alan Konhevalic"
     }
     return (
         <footer className="footer">

@@ -1,7 +1,7 @@
 import linkedin from '../assets/icons/group-10-copy.svg'
 import github from '../assets/icons/fill-1-copy.svg'
 import whatsapp from '../assets/icons/group-3-copy.svg'
-import avatar from '../assets/avatar.jpeg'
+import avatar from '../assets/avatar.jpg'
 import curriculum from '../assets/curriculum.pdf'
 import './styles.css'
 
